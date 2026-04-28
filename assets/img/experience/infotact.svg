@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8E2DE2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A00E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- Dashboard Mockup -->
+  <rect x="100" y="100" width="600" height="200" rx="10" fill="white" opacity="0.9"/>
+  
+  <!-- Chart Area -->
+  <rect x="120" y="120" width="250" height="160" rx="5" fill="#f0f0f0"/>
+  <polyline points="140,250 170,230 200,240 230,200 260,210 290,170 320,180 350,150" stroke="#4CAF50" stroke-width="3" fill="none"/>
+  <text x="245" y="270" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Price Forecasting</text>
+  
+  <!-- Risk Analysis -->
+  <rect x="390" y="120" width="290" height="75" rx="5" fill="#FFE0B2"/>
+  <text x="535" y="150" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#E65100">Risk Analysis</text>
+  <text x="535" y="175" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">BTC Sentiment: Positive</text>
+  
+  <!-- Models -->
+  <rect x="390" y="210" width="90" height="70" rx="5" fill="#BBDEFB"/>
+  <text x="435" y="240" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1565C0">ARIMA</text>
+  <text x="435" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Trend Model</text>
+  
+  <rect x="495" y="210" width="90" height="70" rx="5" fill="#C8E6C9"/>
+  <text x="540" y="240" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2E7D32">LSTM</text>
+  <text x="540" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Deep Learning</text>
+  
+  <rect x="600" y="210" width="80" height="70" rx="5" fill="#F8BBD0"/>
+  <text x="640" y="240" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#C2185B">RF</text>
+  <text x="640" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Ensemble</text>
+  
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="36" font-weight="bold" fill="white">Data Analytics Intern</text>
+  <text x="400" y="85" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFD700">Infotact Solutions, Bangalore</text>
+  
+  <!-- Tech Stack -->
+  <rect x="150" y="320" width="120" height="40" rx="5" fill="#F2C811"/>
+  <text x="210" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Power BI</text>
+  
+  <rect x="290" y="320" width="120" height="40" rx="5" fill="#FF6F00"/>
+  <text x="350" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">BERT</text>
+  
+  <rect x="430" y="320" width="120" height="40" rx="5" fill="#FF5722"/>
+  <text x="490" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">TextBlob</text>
+  
+  <rect x="570" y="320" width="120" height="40" rx="5" fill="#3776AB"/>
+  <text x="630" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Python ML</text>
+</svg>

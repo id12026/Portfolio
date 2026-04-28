@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF416C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4B2B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- News Paper Icons -->
+  <rect x="100" y="80" width="150" height="200" rx="5" fill="white" opacity="0.9"/>
+  <rect x="115" y="100" width="120" height="15" fill="#333"/>
+  <rect x="115" y="125" width="100" height="8" fill="#666"/>
+  <rect x="115" y="140" width="110" height="8" fill="#666"/>
+  <rect x="115" y="155" width="95" height="8" fill="#666"/>
+  <rect x="115" y="170" width="105" height="8" fill="#666"/>
+  <rect x="115" y="185" width="90" height="8" fill="#666"/>
+  <rect x="115" y="200" width="100" height="8" fill="#666"/>
+  <text x="175" y="250" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#FF416C">FAKE</text>
+  <circle cx="175" cy="250" r="30" fill="none" stroke="#FF416C" stroke-width="3"/>
+  <line x1="155" y1="230" x2="195" y2="270" stroke="#FF416C" stroke-width="3"/>
+  
+  <!-- Checkmark -->
+  <rect x="300" y="80" width="150" height="200" rx="5" fill="white" opacity="0.9"/>
+  <rect x="315" y="100" width="120" height="15" fill="#333"/>
+  <rect x="315" y="125" width="100" height="8" fill="#666"/>
+  <rect x="315" y="140" width="110" height="8" fill="#666"/>
+  <rect x="315" y="155" width="95" height="8" fill="#666"/>
+  <rect x="315" y="170" width="105" height="8" fill="#666"/>
+  <rect x="315" y="185" width="90" height="8" fill="#666"/>
+  <rect x="315" y="200" width="100" height="8" fill="#666"/>
+  <text x="375" y="250" text-anchor="middle" font-family="Arial" font-size="50" fill="#4CAF50">✓</text>
+  
+  <!-- ML Processing -->
+  <rect x="500" y="100" width="200" height="160" rx="10" fill="white" opacity="0.9"/>
+  <text x="600" y="135" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#333">ML Model</text>
+  
+  <!-- Neural Network Nodes -->
+  <circle cx="540" cy="170" r="12" fill="#2196F3"/>
+  <circle cx="540" cy="200" r="12" fill="#2196F3"/>
+  <circle cx="540" cy="230" r="12" fill="#2196F3"/>
+  
+  <circle cx="600" cy="185" r="12" fill="#FF9800"/>
+  <circle cx="600" cy="215" r="12" fill="#FF9800"/>
+  
+  <circle cx="660" cy="200" r="12" fill="#4CAF50"/>
+  
+  <!-- Connections -->
+  <line x1="552" y1="170" x2="588" y2="185" stroke="#666" stroke-width="2"/>
+  <line x1="552" y1="170" x2="588" y2="215" stroke="#666" stroke-width="2"/>
+  <line x1="552" y1="200" x2="588" y2="185" stroke="#666" stroke-width="2"/>
+  <line x1="552" y1="200" x2="588" y2="215" stroke="#666" stroke-width="2"/>
+  <line x1="552" y1="230" x2="588" y2="185" stroke="#666" stroke-width="2"/>
+  <line x1="552" y1="230" x2="588" y2="215" stroke="#666" stroke-width="2"/>
+  
+  <line x1="612" y1="185" x2="648" y2="200" stroke="#666" stroke-width="2"/>
+  <line x1="612" y1="215" x2="648" y2="200" stroke="#666" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="white">Fake News Detection</text>
+  <text x="400" y="75" text-anchor="middle" font-family="Arial" font-size="18" fill="#FFD700">Machine Learning Classification</text>
+  
+  <!-- Arrow Flow -->
+  <path d="M 260 180 L 290 180" stroke="white" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 460 180 L 490 180" stroke="white" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+  
+  <!-- Tech Stack -->
+  <rect x="150" y="320" width="100" height="40" rx="5" fill="#3776AB"/>
+  <text x="200" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Python</text>
+  
+  <rect x="270" y="320" width="120" height="40" rx="5" fill="#FF6F00"/>
+  <text x="330" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Scikit-learn</text>
+  
+  <rect x="410" y="320" width="120" height="40" rx="5" fill="#FF5722"/>
+  <text x="470" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">NLP/TF-IDF</text>
+  
+  <rect x="550" y="320" width="120" height="40" rx="5" fill="#9C27B0"/>
+  <text x="610" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Classification</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- Brain Icon -->
+  <circle cx="400" cy="160" r="80" fill="white" opacity="0.9"/>
+  <path d="M 360 140 Q 380 120 400 140 Q 420 120 440 140 Q 450 160 440 180 Q 420 200 400 180 Q 380 200 360 180 Q 350 160 360 140" fill="#11998e" stroke="#0d7a6e" stroke-width="2"/>
+  <circle cx="385" cy="155" r="5" fill="white"/>
+  <circle cx="415" cy="155" r="5" fill="white"/>
+  <path d="M 390 175 Q 400 185 410 175" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Data Flow Lines -->
+  <line x1="200" y1="280" x2="350" y2="280" stroke="white" stroke-width="3" opacity="0.6"/>
+  <line x1="450" y1="280" x2="600" y2="280" stroke="white" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Feature Boxes -->
+  <rect x="80" y="250" width="120" height="60" rx="8" fill="white" opacity="0.9"/>
+  <text x="140" y="275" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#11998e">Behavioral</text>
+  <text x="140" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Patterns</text>
+  
+  <rect x="280" y="250" width="120" height="60" rx="8" fill="white" opacity="0.9"/>
+  <text x="340" y="275" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#11998e">Demographic</text>
+  <text x="340" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Data</text>
+  
+  <rect x="480" y="250" width="120" height="60" rx="8" fill="white" opacity="0.9"/>
+  <text x="540" y="275" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#11998e">XGBoost</text>
+  <text x="540" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">83-85% Acc</text>
+  
+  <rect x="640" y="250" width="120" height="60" rx="8" fill="white" opacity="0.9"/>
+  <text x="700" y="275" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#11998e">SHAP</text>
+  <text x="700" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Explainability</text>
+  
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="white">Mental Health Prediction</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="18" fill="#FFD700">Privacy-Preserving Web Application</text>
+  
+  <!-- Tech Stack -->
+  <rect x="130" y="340" width="90" height="35" rx="5" fill="#3776AB"/>
+  <text x="175" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Python</text>
+  
+  <rect x="240" y="340" width="90" height="35" rx="5" fill="#FF6F00"/>
+  <text x="285" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">XGBoost</text>
+  
+  <rect x="350" y="340" width="90" height="35" rx="5" fill="#4B7500"/>
+  <text x="395" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Autoencoder</text>
+  
+  <rect x="460" y="340" width="90" height="35" rx="5" fill="#007ACC"/>
+  <text x="505" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Flask</text>
+  
+  <rect x="570" y="340" width="90" height="35" rx="5" fill="#E34F26"/>
+  <text x="615" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">HTML/CSS</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF512F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DD2476;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- Room Layout -->
+  <rect x="150" y="100" width="500" height="220" rx="10" fill="white" opacity="0.9"/>
+  
+  <!-- Floor -->
+  <rect x="170" y="180" width="460" height="120" fill="#f5f5f5"/>
+  <line x1="170" y1="180" x2="630" y2="180" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Furniture Items -->
+  <rect x="200" y="200" width="100" height="60" rx="5" fill="#8D6E63"/>
+  <text x="250" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Sofa</text>
+  
+  <rect x="350" y="190" width="80" height="80" rx="5" fill="#5D4037"/>
+  <text x="390" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Table</text>
+  
+  <rect x="480" y="210" width="90" height="50" rx="5" fill="#4CAF50"/>
+  <text x="525" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Plant</text>
+  
+  <!-- AR Overlay -->
+  <rect x="250" y="110" width="300" height="50" rx="25" fill="#2196F3" opacity="0.8"/>
+  <text x="400" y="140" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">AR Try-On Active</text>
+  
+  <!-- YOLO Detection Boxes -->
+  <rect x="195" y="195" width="110" height="70" fill="none" stroke="#FF5722" stroke-width="3"/>
+  <rect x="340" y="180" width="100" height="95" fill="none" stroke="#FF5722" stroke-width="3"/>
+  <rect x="470" y="200" width="110" height="70" fill="none" stroke="#FF5722" stroke-width="3"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="white">Smart Interior Design &amp; AR</text>
+  <text x="400" y="85" text-anchor="middle" font-family="Arial" font-size="18" fill="#FFD700">AI-Powered Try-Before-You-Buy</text>
+  
+  <!-- Tech Stack -->
+  <rect x="100" y="340" width="90" height="35" rx="5" fill="#EE4C2C"/>
+  <text x="145" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">PyTorch</text>
+  
+  <rect x="210" y="340" width="90" height="35" rx="5" fill="#000000"/>
+  <text x="255" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">YOLOv8</text>
+  
+  <rect x="320" y="340" width="90" height="35" rx="5" fill="#DC382D"/>
+  <text x="365" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">ResNet</text>
+  
+  <rect x="430" y="340" width="90" height="35" rx="5" fill="#61DAFB"/>
+  <text x="475" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">React.js</text>
+  
+  <rect x="540" y="340" width="90" height="35" rx="5" fill="#009688"/>
+  <text x="585" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">FastAPI</text>
+  
+  <rect x="650" y="340" width="90" height="35" rx="5" fill="#9C27B0"/>
+  <text x="695" y="362" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Gen AI</text>
+</svg>

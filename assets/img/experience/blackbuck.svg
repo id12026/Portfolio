@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00C853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00E676;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- ML Model Visualization -->
+  <rect x="100" y="80" width="600" height="180" rx="10" fill="white" opacity="0.95"/>
+  
+  <!-- Data Input -->
+  <rect x="120" y="100" width="120" height="60" rx="5" fill="#2196F3"/>
+  <text x="180" y="125" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Raw Data</text>
+  <text x="180" y="145" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Input</text>
+  
+  <!-- Arrow -->
+  <path d="M 250 130 L 290 130" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- ML Processing -->
+  <rect x="300" y="100" width="140" height="60" rx="5" fill="#FF9800"/>
+  <text x="370" y="125" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">ML Models</text>
+  <text x="370" y="145" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Python/Scikit</text>
+  
+  <!-- Arrow -->
+  <path d="M 450 130 L 490 130" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Output -->
+  <rect x="500" y="100" width="140" height="60" rx="5" fill="#4CAF50"/>
+  <text x="570" y="125" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">Predictions</text>
+  <text x="570" y="145" text-anchor="middle" font-family="Arial" font-size="12" fill="white">+25% Accuracy</text>
+  
+  <!-- Performance Metrics -->
+  <rect x="120" y="180" width="160" height="60" rx="5" fill="#E3F2FD"/>
+  <text x="200" y="205" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1565C0">Performance</text>
+  <text x="200" y="225" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#00C853">+25% Accuracy</text>
+  
+  <rect x="310" y="180" width="160" height="60" rx="5" fill="#FFF3E0"/>
+  <text x="390" y="205" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#E65100">Processing Time</text>
+  <text x="390" y="225" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#FF6F00">-30% Time</text>
+  
+  <rect x="500" y="180" width="160" height="60" rx="5" fill="#F3E5F5"/>
+  <text x="580" y="205" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#6A1B9A">Recognition</text>
+  <text x="580" y="225" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#9C27B0">Top Performer</text>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="32" font-weight="bold" fill="white">AI-ML-DS Intern</text>
+  <text x="400" y="75" text-anchor="middle" font-family="Arial" font-size="20" fill="#FFD700">BlackBuck (IIDT &amp; APSCHE), Bangalore</text>
+  
+  <!-- Award Badge -->
+  <circle cx="680" cy="310" r="50" fill="#FFD700" opacity="0.9"/>
+  <text x="680" y="305" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Top</text>
+  <text x="680" y="325" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Performer</text>
+  <text x="680" y="345" text-anchor="middle" font-family="Arial" font-size="20">🏆</text>
+  
+  <!-- Tech Stack -->
+  <rect x="120" y="320" width="100" height="40" rx="5" fill="#3776AB"/>
+  <text x="170" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Python</text>
+  
+  <rect x="240" y="320" width="130" height="40" rx="5" fill="#FF6F00"/>
+  <text x="305" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Scikit-learn</text>
+  
+  <rect x="390" y="320" width="130" height="40" rx="5" fill="#DC382D"/>
+  <text x="455" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">ML Models</text>
+  
+  <rect x="540" y="320" width="130" height="40" rx="5" fill="#2196F3"/>
+  <text x="605" y="345" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Deployment</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
